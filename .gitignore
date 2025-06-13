@@ -1,3 +1,22 @@
+# macOS
+.DS_Store
+
+# CMake-сборка
+/build/
+/CMakeFiles/
+/cmake-build-*/
+
+# Сгенерированные логи и тестовые артефакты
+*.log
+test.log
+bench.log
+
+# CLion / VS Code и прочие IDE
+.idea/
+.vscode/
+
+
+
 # Prerequisites
 *.d
 
